@@ -1,0 +1,92 @@
+
+{
+    "name": "x-php-framework/registry",
+    "homepage": "https://x-php-framework.github.io/registry",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/auth.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/cache.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/color.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/config.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/console.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/container.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/core.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/database.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/dom.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/domain.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/env.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/form.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/http.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/image.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/mailer.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/router.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/security.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/session.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/storage.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/utility.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/x-php-framework/view.git"
+        }
+    ],
+    "require-all": true
+}
