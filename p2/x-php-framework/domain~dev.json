@@ -1,0 +1,28 @@
+{
+    "packages": {
+        "x-php-framework/domain": [
+            {
+                "name": "x-php-framework/domain",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/domain.git",
+                    "reference": "156c14ab48ff2c92f06d4fa5926d91588e3a88c6"
+                },
+                "require": {
+                    "x-php-framework/cache": "@dev",
+                    "x-php-framework/database": "@dev",
+                    "x-php-framework/utility": "@dev"
+                },
+                "time": "2026-10-20T12:20:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Domain\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

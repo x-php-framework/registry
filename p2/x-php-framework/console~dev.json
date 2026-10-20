@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/console": [
+            {
+                "name": "x-php-framework/console",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/console.git",
+                    "reference": "bed1ae17067c35ed60dca08109a9ba61100c2322"
+                },
+                "time": "2026-10-20T12:13:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Console\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

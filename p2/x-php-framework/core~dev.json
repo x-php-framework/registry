@@ -1,0 +1,42 @@
+{
+    "packages": {
+        "x-php-framework/core": [
+            {
+                "name": "x-php-framework/core",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/core.git",
+                    "reference": "ec85d9f28e3a2b1f64d307910417adb17d65bda1"
+                },
+                "require": {
+                    "x-php-framework/auth": "@dev",
+                    "x-php-framework/cache": "@dev",
+                    "x-php-framework/config": "@dev",
+                    "x-php-framework/console": "@dev",
+                    "x-php-framework/container": "@dev",
+                    "x-php-framework/database": "@dev",
+                    "x-php-framework/domain": "@dev",
+                    "x-php-framework/env": "@dev",
+                    "x-php-framework/form": "@dev",
+                    "x-php-framework/http": "@dev",
+                    "x-php-framework/image": "@dev",
+                    "x-php-framework/mailer": "@dev",
+                    "x-php-framework/router": "@dev",
+                    "x-php-framework/security": "@dev",
+                    "x-php-framework/session": "@dev",
+                    "x-php-framework/storage": "@dev",
+                    "x-php-framework/view": "@dev"
+                },
+                "time": "2026-10-20T12:16:17+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Core\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

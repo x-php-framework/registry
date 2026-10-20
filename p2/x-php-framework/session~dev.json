@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/session": [
+            {
+                "name": "x-php-framework/session",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/session.git",
+                    "reference": "e7eeeb8eb3ca42e43853ebd63d9c44fbfb5c4119"
+                },
+                "time": "2026-10-20T12:28:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Session\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

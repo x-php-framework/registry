@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/color": [
+            {
+                "name": "x-php-framework/color",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/color.git",
+                    "reference": "4e6605b21df8c795c2d1aa92a9c584b2b3c1752d"
+                },
+                "time": "2026-10-20T12:08:20+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Color\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

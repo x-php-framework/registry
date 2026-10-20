@@ -1,0 +1,32 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$4fb2bc7923b1bc5331ba4b0c48e313d4935da35b.json": {
+            "sha1": "4fb2bc7923b1bc5331ba4b0c48e313d4935da35b"
+        }
+    },
+    "metadata-url": "/registry/p2/%package%.json",
+    "available-packages": [
+        "x-php-framework/auth",
+        "x-php-framework/cache",
+        "x-php-framework/color",
+        "x-php-framework/config",
+        "x-php-framework/console",
+        "x-php-framework/container",
+        "x-php-framework/core",
+        "x-php-framework/database",
+        "x-php-framework/dom",
+        "x-php-framework/domain",
+        "x-php-framework/env",
+        "x-php-framework/form",
+        "x-php-framework/http",
+        "x-php-framework/image",
+        "x-php-framework/mailer",
+        "x-php-framework/router",
+        "x-php-framework/security",
+        "x-php-framework/session",
+        "x-php-framework/storage",
+        "x-php-framework/utility",
+        "x-php-framework/view"
+    ]
+}

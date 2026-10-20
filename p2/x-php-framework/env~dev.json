@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/env": [
+            {
+                "name": "x-php-framework/env",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/env.git",
+                    "reference": "db5d09eadccbe9eea04dfff80cc8b6a32fdc7cc4"
+                },
+                "time": "2026-10-20T12:21:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Env\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

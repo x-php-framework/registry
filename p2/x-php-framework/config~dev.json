@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "x-php-framework/config": [
+            {
+                "name": "x-php-framework/config",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/config.git",
+                    "reference": "6a06591c83d1742976640e6443058654921851e0"
+                },
+                "require": {
+                    "x-php-framework/utility": "@dev"
+                },
+                "time": "2026-10-20T12:09:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Config\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

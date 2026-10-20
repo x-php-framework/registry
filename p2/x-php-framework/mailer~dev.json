@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/mailer": [
+            {
+                "name": "x-php-framework/mailer",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/mailer.git",
+                    "reference": "48461988e33bdac3ca1cd628e3e8331c917b03b4"
+                },
+                "time": "2026-10-20T12:25:58+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Mailer\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

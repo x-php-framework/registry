@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/auth": [
+            {
+                "name": "x-php-framework/auth",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/auth.git",
+                    "reference": "338961b8f969437b4bb8110bac712a1d9f9d5dea"
+                },
+                "time": "2026-10-20T11:59:31+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Auth\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

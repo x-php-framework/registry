@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/dom": [
+            {
+                "name": "x-php-framework/dom",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/dom.git",
+                    "reference": "bdc03da7e8b229a4f3b499eb47b59e14b42e663a"
+                },
+                "time": "2026-10-20T12:19:59+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Dom\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

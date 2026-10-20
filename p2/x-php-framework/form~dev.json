@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "x-php-framework/form": [
+            {
+                "name": "x-php-framework/form",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/form.git",
+                    "reference": "60682013ed799d94ef42f0d1859c680c290fe8eb"
+                },
+                "require": {
+                    "x-php-framework/dom": "@dev"
+                },
+                "time": "2026-10-20T12:22:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Form\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

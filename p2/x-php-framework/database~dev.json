@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/database": [
+            {
+                "name": "x-php-framework/database",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/database.git",
+                    "reference": "0914ce1dea7efee73495a99ba7fa31e7fab4057f"
+                },
+                "time": "2026-10-20T12:18:42+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Database\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

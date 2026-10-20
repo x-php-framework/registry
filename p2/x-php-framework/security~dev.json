@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/security": [
+            {
+                "name": "x-php-framework/security",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/security.git",
+                    "reference": "c698516641e562e6a681c122dcefab93ce1a4f23"
+                },
+                "time": "2026-10-20T12:28:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Security\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/cache": [
+            {
+                "name": "x-php-framework/cache",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/cache.git",
+                    "reference": "543971d03aca18145842ba9fef323af25b2b6625"
+                },
+                "time": "2026-10-20T12:05:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Cache\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/storage": [
+            {
+                "name": "x-php-framework/storage",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/storage.git",
+                    "reference": "3bad263f1878744e14df822967b355eb697cbd4c"
+                },
+                "time": "2026-10-20T12:29:50+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Storage\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

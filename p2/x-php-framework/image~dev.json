@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/image": [
+            {
+                "name": "x-php-framework/image",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/image.git",
+                    "reference": "1fa25317e96dd2c07161d6b4ab7da246f408f5cf"
+                },
+                "time": "2026-10-20T12:24:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Image\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

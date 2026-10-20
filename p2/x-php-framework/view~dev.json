@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/view": [
+            {
+                "name": "x-php-framework/view",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/view.git",
+                    "reference": "37c6c5a4d66fc6e412cc8d64937dc0a0dea78811"
+                },
+                "time": "2026-10-20T12:31:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\View\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

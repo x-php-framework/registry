@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "x-php-framework/utility": [
+            {
+                "name": "x-php-framework/utility",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/utility.git",
+                    "reference": "97c48227cb761952dec25fab3268052ef3da8eb7"
+                },
+                "time": "2026-10-20T12:30:40+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Utility\\": "./src/"
+                    },
+                    "files": [
+                        "./src/function.php"
+                    ]
+                }
+            }
+        ]
+    }
+}

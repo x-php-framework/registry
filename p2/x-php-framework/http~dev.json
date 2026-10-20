@@ -1,0 +1,26 @@
+{
+    "packages": {
+        "x-php-framework/http": [
+            {
+                "name": "x-php-framework/http",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/http.git",
+                    "reference": "ed3596b76c0fdcd2c0a93ead7dc59bdd13a5545c"
+                },
+                "require": {
+                    "x-php-framework/utility": "@dev"
+                },
+                "time": "2026-10-20T12:23:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Http\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

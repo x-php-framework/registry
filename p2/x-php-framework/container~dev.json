@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/container": [
+            {
+                "name": "x-php-framework/container",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/container.git",
+                    "reference": "13bb4ea82df8373e186c0961593f564f756dae4c"
+                },
+                "time": "2026-10-20T12:14:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Container\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}

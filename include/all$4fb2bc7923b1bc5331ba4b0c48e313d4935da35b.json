@@ -1,0 +1,439 @@
+{
+    "packages": {
+        "x-php-framework/auth": {
+            "dev-develop": {
+                "name": "x-php-framework/auth",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/auth.git",
+                    "reference": "338961b8f969437b4bb8110bac712a1d9f9d5dea"
+                },
+                "time": "2026-10-20T11:59:31+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Auth\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/cache": {
+            "dev-develop": {
+                "name": "x-php-framework/cache",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/cache.git",
+                    "reference": "543971d03aca18145842ba9fef323af25b2b6625"
+                },
+                "time": "2026-10-20T12:05:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Cache\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/color": {
+            "dev-develop": {
+                "name": "x-php-framework/color",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/color.git",
+                    "reference": "4e6605b21df8c795c2d1aa92a9c584b2b3c1752d"
+                },
+                "time": "2026-10-20T12:08:20+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Color\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/config": {
+            "dev-develop": {
+                "name": "x-php-framework/config",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/config.git",
+                    "reference": "6a06591c83d1742976640e6443058654921851e0"
+                },
+                "require": {
+                    "x-php-framework/utility": "@dev"
+                },
+                "time": "2026-10-20T12:09:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Config\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/console": {
+            "dev-develop": {
+                "name": "x-php-framework/console",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/console.git",
+                    "reference": "bed1ae17067c35ed60dca08109a9ba61100c2322"
+                },
+                "time": "2026-10-20T12:13:19+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Console\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/container": {
+            "dev-develop": {
+                "name": "x-php-framework/container",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/container.git",
+                    "reference": "13bb4ea82df8373e186c0961593f564f756dae4c"
+                },
+                "time": "2026-10-20T12:14:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Container\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/core": {
+            "dev-develop": {
+                "name": "x-php-framework/core",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/core.git",
+                    "reference": "ec85d9f28e3a2b1f64d307910417adb17d65bda1"
+                },
+                "require": {
+                    "x-php-framework/auth": "@dev",
+                    "x-php-framework/cache": "@dev",
+                    "x-php-framework/config": "@dev",
+                    "x-php-framework/console": "@dev",
+                    "x-php-framework/container": "@dev",
+                    "x-php-framework/database": "@dev",
+                    "x-php-framework/domain": "@dev",
+                    "x-php-framework/env": "@dev",
+                    "x-php-framework/form": "@dev",
+                    "x-php-framework/http": "@dev",
+                    "x-php-framework/image": "@dev",
+                    "x-php-framework/mailer": "@dev",
+                    "x-php-framework/router": "@dev",
+                    "x-php-framework/security": "@dev",
+                    "x-php-framework/session": "@dev",
+                    "x-php-framework/storage": "@dev",
+                    "x-php-framework/view": "@dev"
+                },
+                "time": "2026-10-20T12:16:17+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Core\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/database": {
+            "dev-develop": {
+                "name": "x-php-framework/database",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/database.git",
+                    "reference": "0914ce1dea7efee73495a99ba7fa31e7fab4057f"
+                },
+                "time": "2026-10-20T12:18:42+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Database\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/dom": {
+            "dev-develop": {
+                "name": "x-php-framework/dom",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/dom.git",
+                    "reference": "bdc03da7e8b229a4f3b499eb47b59e14b42e663a"
+                },
+                "time": "2026-10-20T12:19:59+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Dom\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/domain": {
+            "dev-develop": {
+                "name": "x-php-framework/domain",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/domain.git",
+                    "reference": "156c14ab48ff2c92f06d4fa5926d91588e3a88c6"
+                },
+                "require": {
+                    "x-php-framework/cache": "@dev",
+                    "x-php-framework/database": "@dev",
+                    "x-php-framework/utility": "@dev"
+                },
+                "time": "2026-10-20T12:20:41+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Domain\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/env": {
+            "dev-develop": {
+                "name": "x-php-framework/env",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/env.git",
+                    "reference": "db5d09eadccbe9eea04dfff80cc8b6a32fdc7cc4"
+                },
+                "time": "2026-10-20T12:21:48+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Env\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/form": {
+            "dev-develop": {
+                "name": "x-php-framework/form",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/form.git",
+                    "reference": "60682013ed799d94ef42f0d1859c680c290fe8eb"
+                },
+                "require": {
+                    "x-php-framework/dom": "@dev"
+                },
+                "time": "2026-10-20T12:22:29+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Form\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/http": {
+            "dev-develop": {
+                "name": "x-php-framework/http",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/http.git",
+                    "reference": "ed3596b76c0fdcd2c0a93ead7dc59bdd13a5545c"
+                },
+                "require": {
+                    "x-php-framework/utility": "@dev"
+                },
+                "time": "2026-10-20T12:23:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Http\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/image": {
+            "dev-develop": {
+                "name": "x-php-framework/image",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/image.git",
+                    "reference": "1fa25317e96dd2c07161d6b4ab7da246f408f5cf"
+                },
+                "time": "2026-10-20T12:24:56+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Image\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/mailer": {
+            "dev-develop": {
+                "name": "x-php-framework/mailer",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/mailer.git",
+                    "reference": "48461988e33bdac3ca1cd628e3e8331c917b03b4"
+                },
+                "time": "2026-10-20T12:25:58+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Mailer\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/router": {
+            "dev-develop": {
+                "name": "x-php-framework/router",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/router.git",
+                    "reference": "97985965ae4da7971aca2856e2c4a5ad1a793188"
+                },
+                "time": "2026-10-20T12:27:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Router\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/security": {
+            "dev-develop": {
+                "name": "x-php-framework/security",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/security.git",
+                    "reference": "c698516641e562e6a681c122dcefab93ce1a4f23"
+                },
+                "time": "2026-10-20T12:28:07+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Security\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/session": {
+            "dev-develop": {
+                "name": "x-php-framework/session",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/session.git",
+                    "reference": "e7eeeb8eb3ca42e43853ebd63d9c44fbfb5c4119"
+                },
+                "time": "2026-10-20T12:28:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Session\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/storage": {
+            "dev-develop": {
+                "name": "x-php-framework/storage",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/storage.git",
+                    "reference": "3bad263f1878744e14df822967b355eb697cbd4c"
+                },
+                "time": "2026-10-20T12:29:50+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Storage\\": "./src/"
+                    }
+                }
+            }
+        },
+        "x-php-framework/utility": {
+            "dev-develop": {
+                "name": "x-php-framework/utility",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/utility.git",
+                    "reference": "97c48227cb761952dec25fab3268052ef3da8eb7"
+                },
+                "time": "2026-10-20T12:30:40+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Utility\\": "./src/"
+                    },
+                    "files": [
+                        "./src/function.php"
+                    ]
+                }
+            }
+        },
+        "x-php-framework/view": {
+            "dev-develop": {
+                "name": "x-php-framework/view",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/view.git",
+                    "reference": "37c6c5a4d66fc6e412cc8d64937dc0a0dea78811"
+                },
+                "time": "2026-10-20T12:31:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\View\\": "./src/"
+                    }
+                }
+            }
+        }
+    }
+}

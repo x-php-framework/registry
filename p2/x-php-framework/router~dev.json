@@ -1,0 +1,23 @@
+{
+    "packages": {
+        "x-php-framework/router": [
+            {
+                "name": "x-php-framework/router",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/x-php-framework/router.git",
+                    "reference": "97985965ae4da7971aca2856e2c4a5ad1a793188"
+                },
+                "time": "2026-10-20T12:27:16+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "X\\Router\\": "./src/"
+                    }
+                }
+            }
+        ]
+    }
+}
